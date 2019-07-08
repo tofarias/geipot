@@ -40,17 +40,19 @@ ul {
 }
 
 #menu1-lista1{
-    float: right;
+    float: left;
     margin: 0 10px 0 0;
 }
 
 #menu1-lista1 li{
     float: left;
+    padding: 8px 15px 8px 13px;
+    border-left: 2px solid #dfdfdf;
 }
 
 #menu1-lista2 li{
     float: right;
-    padding: 8px 15px 6px 13px;
+    padding: 8px 15px 8px 13px;
     border-left: 2px solid #dfdfdf;
 }
 
@@ -68,11 +70,11 @@ ul {
 
 #menu2-lista2{
     float: right;
-    border-bottom: 1px dotted black;
+    border-bottom: 1px dotted #083e6b;
     height: 21px;
 }
 
-#menu2-lista1 li{
+#menu2-lista1 li a{
     float: left;
     margin: 0 10px 0 0;
 }
