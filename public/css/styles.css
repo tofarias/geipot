@@ -10,7 +10,7 @@ ul {
     margin: 0;
 }
 
-.span-bgcolor-a9a9a9{
+.span-bgcolor-d1d5e8{
     background-color: #d1d5e8;
     padding: 0px 3px 0px 2px;
 }
@@ -40,6 +40,10 @@ ul {
 #container-titulo h1{
     margin-top: 20px;
     width: 500px;
+    color: #fff;
+    margin-top: 30px;
+    font-family: "open_sansextrabold", 'Open Sans', Arial, Helvetica, sans-serif;
+    font-weight: 800;
 }
 
 #menu1 nav{
