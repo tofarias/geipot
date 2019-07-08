@@ -10,6 +10,11 @@ ul {
     margin: 0;
 }
 
+.span-bgcolor-a9a9a9{
+    background-color: #b5a8a8;
+    padding: 1px 1px 1px 1px;
+}
+
 #principal{
     height: 240px;
     width: 100%;
@@ -25,6 +30,28 @@ ul {
     height: 131px;
     padding: 13px 0 30px 0;
     background-color: #16b7c5;
+}
+
+#menu1 nav{
+    width: 960px;
+    margin: 0 auto;
+    font-size: .80em;
+    _font-weight: bold;
+}
+
+#menu1-lista1{
+    float: right;
+    margin: 0 10px 0 0;
+}
+
+#menu1-lista1 li{
+    float: left;
+}
+
+#menu1-lista2 li{
+    float: right;
+    padding: 8px 15px 6px 13px;
+    border-left: 2px solid #dfdfdf;
 }
 
 #header-section-menu2{
@@ -56,8 +83,10 @@ ul {
     text-transform: uppercase;
 }
 
-#menu2-lista1 a, #menu2-lista2 a{
+#menu2-lista1 a, #menu2-lista2 a, #menu1 a{
     text-decoration: none;
+    color: #2f495f;
+    font-weight: bold;
 }
 
 
