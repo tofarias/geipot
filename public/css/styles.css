@@ -10,8 +10,8 @@ ul {
     margin: 0;
 }
 
-.span-bgcolor-d1d5e8{
-    background-color: #d1d5e8;
+.span-bgcolor-ffffff7a{
+    background-color: #ffffff7a;
     padding: 0px 3px 0px 2px;
 }
 
@@ -32,6 +32,15 @@ ul {
     background-color: #2fb0bb;
 }
 
+#menu3{
+    height: 31px;
+    background-color: #0a99a5;
+}
+
+#menu3 li a{
+
+}
+
 #container-titulo{
     width: 880px;
     margin: 0 auto;
@@ -44,9 +53,10 @@ ul {
     margin-top: 30px;
     font-family: "open_sansextrabold", 'Open Sans', Arial, Helvetica, sans-serif;
     font-weight: 800;
+    font-size: 1.55em;
 }
 
-#menu1 nav{
+#menu1 nav, #menu3 nav{
     width: 960px;
     margin: 0 auto;
     font-size: .80em;
@@ -68,6 +78,13 @@ ul {
     float: right;
     padding: 8px 15px 8px 13px;
     border-left: 2px solid #dfdfdf;
+}
+
+#menu3-lista1 li{
+    float: right;
+    padding: 8px 15px 8px 13px;
+    border-left: 1px solid #dfdfdf;
+    _background-color: #03929e;
 }
 
 #header-section-menu2{
@@ -99,9 +116,9 @@ ul {
     text-transform: uppercase;
 }
 
-#menu2-lista1 a, #menu2-lista2 a, #menu1 a{
+#menu2-lista1 a, #menu2-lista2 a, #menu1 a, #menu3-lista1 a{
     text-decoration: none;
-    color: #2f495f;
+    color: #061827;
     font-weight: bold;
 }
 
