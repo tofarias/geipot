@@ -39,6 +39,12 @@ ul {
     font-weight: bold;
 }
 
+#menu2-lista2{
+    float: right;
+    border-bottom: 1px dotted black;
+    height: 21px;
+}
+
 #menu2-lista1 li{
     float: left;
     margin: 0 10px 0 0;
