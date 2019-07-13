@@ -116,18 +116,37 @@ ul {
     text-transform: uppercase;
 }
 
-#menu2-lista1 a, #menu2-lista2 a, #menu1 a, #menu3-lista1 a{
+#menu2-lista1 a, #menu2-lista2 a, #menu1 a, #menu3-lista1 a, #rodape1 ul li{
     text-decoration: none;
     color: #061827;
     font-weight: bold;
 }
 
+footer{
+    height: 250px;
+    background-color: #2fb0bb;
+}
 
+footer ul{
+    float:left;
+    margin: 10px 0 10px 100px;
+    border-left: 1px dotted;
+}
 
-nav{ }
+#rodape1{
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+}
 
-aside{ }
+#rodape2{
+    height: 100px;
+    background-color: #0A99A5;
+}
 
-section{ }
-
-footer{ }
+main{
+    height: 600px;
+    width: 960px;
+    margin: 0 auto;
+    background-color: #F1F1F1;
+}
