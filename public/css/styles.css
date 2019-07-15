@@ -169,7 +169,8 @@ main{
 }
 
 #conteudo{
-    width: 750px;
+    width: 745px;
+    padding: 5px 0px 0px 5px;
     float: right;
     background-color: red;
 }
