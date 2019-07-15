@@ -161,7 +161,15 @@ main{
 }
 
 #menu-lateral-esquero{
-    border: 1px solid red;
     height: 100%;
     display: flex;
+    float: left;
+    width: 210px;
+    background-color: blue;
+}
+
+#conteudo{
+    width: 750px;
+    float: right;
+    background-color: red;
 }
