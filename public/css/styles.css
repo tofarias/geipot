@@ -258,13 +258,13 @@ section#veja-mais h3 a{
 
 #categorias article figure img{
     width: 230px;
-    height: 136;
+    max-height: 130px;
 }
 
 #categorias article ul{
     _border: 1px solid;
     height: 234px;
-    padding-inline-start: 0px;
+    padding: 0;
 }
 
 #categorias article ul li{
@@ -277,6 +277,7 @@ section#veja-mais h3 a{
     line-height: 3em;
     padding-left: 0px;
     width: 100%;
+    padding-left: 5px;
 }
 
 .border-top-5px-blue{ border-top: 5px solid blue; }
