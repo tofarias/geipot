@@ -1,11 +1,15 @@
 function carregarPagina( event, pagina ){
 
-    event.preventDefault();
+    if( event !== null ){
+        event.preventDefault();
+    }    
 
-    $( "#conteudo" ).load( pagina );
+    $( "main#main" ).load( pagina );
 }
 
 function init(){
+
+    carregarPagina( null, 'home.html' );
     $( "header#header" ).load( 'header.html' );
     $( "footer#footer" ).load( 'footer.html' );
     $( "#banner" ).load( 'banner.html' );

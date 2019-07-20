@@ -124,7 +124,7 @@ ul {
     font-weight: bold;
 }
 
-footer{
+#footer{
     height: 250px;
     background-color: #2fb0bb;
 }
@@ -185,11 +185,74 @@ main{
 #container{
     margin: 0 auto;
     width: 960px;
-    height: 600px;
+    height: 800px;
 }
 
 #titulo-menu{
     width: 100%;
-    border: 1px solid red;
     display: inline-table;
 }
+
+main article{
+    _border: 1px solid blue;
+    display: table-row;
+}
+
+main article header{
+    width: 100%
+}
+
+ul#news{}
+
+ul#news li{
+    list-style: square;
+    margin: 10px;
+}
+
+div#scroll{
+    overflow-y: scroll;
+    height: 150px;
+    border-bottom: 0.5px dotted;
+    margin: 0 0 20px 0;
+}
+
+section#veja-mais{
+    background-color: #2fb0bba1;
+    display: block;
+    padding: 1px 0 1px 0;
+    margin-top: 10px;
+    border-top: 5px solid #20b2aa;
+}
+
+section#veja-mais h3{
+    text-align: right;
+    margin-right: 20px;
+}
+
+section#veja-mais h3 a{
+    text-decoration: none;
+}
+
+#categorias article{
+    width: 238px;
+    margin: 20px 5px auto;
+    display: inline-block;float: left;
+    text-align: center;
+    border-top: 5px solid #20b2aa;
+}
+
+#categorias article header{
+    margin: 10px 0 0 0;
+    background-color: #d3d3d340;
+    height: 40px;
+    line-height: 25pt;
+    border-bottom: 1px solid #20b2aa;
+}
+
+#categorias article figure{
+    margin: 20px 0 0 auto;
+}
+
+.border-top-5px-blue{ border-top: 5px solid blue; }
+.border-top-5px-red{ border-top: 5px solid red; }
+.border-top-5px-brown{ border-top: 5px solid brown; }
