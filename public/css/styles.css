@@ -240,7 +240,7 @@ section#veja-mais h3 a{
     float: left;
     text-align: center;
     border-top: 5px solid #20b2aa;
-    border-radius: 10px;
+    _border-radius: 10px;
     min-height: 460px;
 }
 
@@ -256,10 +256,15 @@ section#veja-mais h3 a{
     margin: 20px 0 0 auto;
 }
 
+#categorias article figure img{
+    width: 230px;
+    height: 136;
+}
+
 #categorias article ul{
     _border: 1px solid;
     height: 234px;
-    padding-inline-start: 3px;
+    padding-inline-start: 0px;
 }
 
 #categorias article ul li{
@@ -270,7 +275,8 @@ section#veja-mais h3 a{
     height: 40px;
     padding: 0;
     line-height: 3em;
-    padding-left: 10px;
+    padding-left: 0px;
+    width: 100%;
 }
 
 .border-top-5px-blue{ border-top: 5px solid blue; }
