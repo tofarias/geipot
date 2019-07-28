@@ -1,6 +1,6 @@
 <article id="article1">
         <header>
-                <h2>Cadastro de Solicitcao de Acesso</h2>
+                <h2>Cadastro de Solicitação de Acesso</h2>
         </header>
         <footer></footer>
 </article>
@@ -20,51 +20,75 @@
             <label for="lastname">Nome:</label></br>
             <input type="text" name="nome" id="nome" /></br>
      
-            <label class="tipo-pessoa-fisica" for="firstname">Sobrenome:</label></br>
-            <input class="tipo-pessoa-fisica" type="text" name="sobrenome" id="sobrenome" /></br>
+            <div class="tipo-pessoa-fisica">
+                <div class="linha">
+                    <label for="firstname">Sobrenome:</label>
+                </div>
+                <input type="text" name="sobrenome" id="sobrenome" />
+            </div>
       
-            <label class="tipo-pessoa-fisica" for="dt_nasc">Data de Nascimento:</label></br>
-            <input class="tipo-pessoa-fisica" type="date" name="dt_nasc" id="dt-nasc" /></br>
+            <div class="tipo-pessoa-fisica">
+                <div class="linha">
+                    <label for="dt_nasc">Data de Nascimento:</label>
+                </div>
+                <input class="tipo-pessoa-fisica" type="date" name="dt_nasc" id="dt-nasc" />
+            </div>
 
-            <label class="tipo-pessoa-fisica" for="hr_nasc">Hora de Nascimento:</label></br>
-            <input class="tipo-pessoa-fisica" type="time" name="hr_nasc" id="hr-nasc" /></br>
+            <div class="tipo-pessoa-fisica">
+                <div>
+                    <label for="hr_nasc">Hora de Nascimento:</label>
+                </div>
+                <input type="time" name="hr_nasc" id="hr-nasc" />
+            </div>
 
-            <label for="email">Endereco:</label></br>
-            <input type="email" name="endereco" id="endereco" /></br>
+            <div>
+            <label for="email">Endereco:</label>
+            </div>
+            <input type="email" name="endereco" id="endereco" />
 
-            <label for="nr_endereco">Numero:</label></br>
-            <input type="number" name="nr_endereco" id="nr-endereco" /></br>
+            <div>
+            <label for="nr_endereco">Numero:</label>
+            </div>
+            <input type="number" name="nr_endereco" id="nr-endereco" />
 
-            <label for="email">CEP:</label></br>
-            <input type="email" name="cep" id="cep" data-mask="" data-mask-selectonfocus="" /></br>
+            <div>
+                <label for="cep">CEP:</label>
+            </div>
+            <input type="text" name="cep" id="cep" data-mask="" data-mask-selectonfocus="" />
 
-            <label class="tipo-pessoa-fisica" for="cpf">CPF:</label></br>
-            <input class="tipo-pessoa-fisica" type="text" name="cpf" id="cpf"/></br>
+            <div class="tipo-pessoa-fisica">
+                <div class="linha">
+                    <label for="cpf">CPF:</label>
+                </div>
+                <input class="tipo-pessoa-fisica" type="text" name="cpf" id="cpf"/>
+            </div>
 
-            <label class="tipo-pessoa-fisica" for="cpf">RG:</label></br>
-            <input class="tipo-pessoa-fisica" type="text" name="cpf" id="cpf"/></br>
+            <div class="tipo-pessoa-fisica">
+                <div class="linha">
+                    <label class="tipo-pessoa-fisica" for="cpf">RG:</label>
+                </div>
+                <input class="tipo-pessoa-fisica" type="text" name="cpf" id="cpf"/>
+            </div>
 
-            <label class="tipo-pessoa-juridica" for="cpf">CNPJ:</label></br>
-            <input class="tipo-pessoa-juridica" type="text" name="cnpj" id="cnpj"/></br>
+            <div class="tipo-pessoa-juridica">
+                <div class="linha">
+                    <label for="cpf">CNPJ:</label>
+                </div>
+                <input type="text" name="cnpj" id="cnpj"/>
+            </div>
+
+            <div class="tipo-pessoa-juridica">
+                <div class="linha">
+                    <label for="ie">Inscrição Estadual:</label>
+                </div>
+                <input type="text" name="cnpj" id="ie"/>
+            </div>
      
         </fieldset>
-      
-        <fieldset>
-            <legend>Your wish</legend> <!-- Fieldset title -->
-      
-            <p>
-                Make a wish that you would like to come true:</br>
-     
-                <input type="radio" name="wish" value="rich" id="rich" /> <label for="rich">Be rich</label></br>
-                <input type="radio" name="wish" value="famous" id="famous" /> <label for="famous">Be famous</label></br>
-                <input type="radio" name="wish" value="intelligent" id="intelligent" /> <label for="intelligent">Be <strong>even more</strong> intelligent</label></br>
-                <input type="radio" name="wish" value="other" id="other" /> <label for="other">Other...</label></br>
-            </p>
-      
-            <p>
-                <label for="specs">If "Other", please specify:</label></br>
-                <textarea name="specs" id="specs" cols="40" rows="4"></textarea>
-            </p>
-        </fieldset>
+
+        <div>
+            <input type="submit" value="Enviar"/>
+        </div>
+
      </form>
 
